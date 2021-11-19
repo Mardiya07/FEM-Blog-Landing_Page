@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 92, 71, 0.986);
+    background-image: url(../../images/bg-pattern-intro.svg);
+    background-size:cover;
+    background-position:center ;
+    min-height:90vh ;
+    border-radius: 0 0 0 10rem;
+    position: relative;
+}

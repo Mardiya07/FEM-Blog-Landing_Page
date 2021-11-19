@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3rem 2rem 3rem ;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav__menuIcon{
+    height: 2.2rem;
+    width: 3.5rem;
+}

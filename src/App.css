@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@import url(https://fonts.google.com/specimen/Overpass?preview.text_type=custom);
+@import url(https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom);
+:root{
+    /* colors */
+/* Primary */
+--Light-Red:hsl(356, 100%, 66%);
+--Very-Light-Red:hsl(355, 100%, 74%);
+--Very-Dark-Blue:hsl(208, 49%, 24%);
+/* Neutral */
+--White:hsl(0, 0%, 100%);
+--Grayish-Blue:hsl(240, 2%, 79%);
+--Very-Dark-Grayish-Blue:hsl(207, 13%, 34%);
+--Very-Dark-Blue: hsl(240, 10%, 16%);
+/* Background Gradient */
+--Very-Light-Redgr:hsl(13, 100%, 72%);
+--Light-Redgr:(353, 100%, 62%);
+--Very-Dark-Bluegr:hsl(237, 17%, 21%);
+--Very-Dark-Saturated-Bluegr:hsl(237, 23%, 32%);
 }
