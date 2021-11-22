@@ -1,13 +1,41 @@
 import React from 'react'
 import './footer.css'
-const ContentSectioner = (props) => {
+const ContentSectioner = () => {
     return (
-        <div>
-            <h3>{props.sectionHeading}</h3>
+        <>
+           <div className='contentContainer'>
+
+            <h3>Product</h3>
             <ul>
-                <li>id</li>
+                <li><a href='#s'>Overview</a></li>
+                <li><a href='#s'>Pricing</a></li>
+                <li><a href='#s'>Marketplace</a></li>
+                <li><a href='#s'>Features</a></li>
+                <li><a href='#s'>Integrations</a></li>
             </ul>
-        </div>
+           </div>
+           <div className='contentContainer'>
+
+            <h3>Company</h3>
+            <ul>
+                <li><a href='#s'>About</a></li>
+                <li><a href='#s'>Team</a></li>
+                <li><a href='#s'>Blog</a></li>
+                <li><a href='#s'>Careers</a></li>
+    
+            </ul>
+           </div>
+           <div className='contentContainer'>
+
+            <h3>Connect</h3>
+            <ul>
+                <li><a href='#s'>Contact</a></li>
+                <li><a href='#s'>NewsLetter</a></li>
+                <li><a href='#s'>LinkedIn</a></li>
+               
+            </ul>
+           </div>
+        </>
     )
 }
 

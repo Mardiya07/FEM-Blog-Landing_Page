@@ -8,16 +8,16 @@ import Footer from '../../components/footer/Footer'
 
 const Home = () => {
     return (
-        <div>
+        <div className='homepage'>
             <header className='header'>
            <Navigation/> 
            <IntroContent/>
             </header>
-            <section>
+            <section className='features-section'>
             <h2 className='sloganText' >{data.textContent.featureSloganTxt}</h2>
 
-        <div>
-            <img src={data.images.editorIllusMb} alt='editor illustration '/>
+        <div className='imageAndTextContainer'>
+            <img className='editorIllustration' src={data.images.editorIllusMb} alt='editor illustration '/>
             <div>
                 {firstSectionText.map((item)=>{
                     return(
@@ -28,8 +28,8 @@ const Home = () => {
         </div>
 
            <FeatureTextContainer paragraphHeadTxt={data.textContent.paragraph3HeadTxt} paragraphBodyTxt={data.textContent.paragraph3BodyTxt}/>
-           <div>
-            <img src={data.images.editorIllusMb} alt='editor illustration '/>
+           <div className='imageAndTextContainer'>
+            <img className='laptopIllustration' src={data.images.laptopIllusMb} alt='laptop illustration '/>
             <div>
                 {secondSectionText.map((item)=>{
                     return(

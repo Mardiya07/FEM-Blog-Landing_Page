@@ -1,0 +1,15 @@
+.features-section{
+    padding: 2rem 0 ;
+}
+.featureTextContainer{
+    padding: 2rem 4rem;
+    text-align: center;
+    
+}
+.featureTextContainer h2{
+    font-size: 2.8rem;
+    padding: 2rem;
+}
+.featureTextContainer p{
+    font-size: var(--Body-Ptags);
+}

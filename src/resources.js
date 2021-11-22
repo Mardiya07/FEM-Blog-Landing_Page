@@ -22,7 +22,7 @@ export const data={
             introTexth1:'A modern publishing platform',
             introPhrase:'Grow your audience and build your online brand',
             ctaBtnStart:'Start for Free',
-            featureSloganTxt: 'Design for the futures',
+            featureSloganTxt: 'Designed for the future',
             paragraph3HeadTxt:'State of the Art Infrastructure',
             paragraph3BodyTxt:'With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.',
             },
@@ -61,14 +61,33 @@ export const secondSectionText=[
         paragraphBodyTxt:'Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, butcapable of producing even the most complicated sites.',
     }
 ]
-export const footerText=[
-    {
-        sectionName:'Product',
-        
-    },
-    {
-        sectionName:'Company',
-    },
-    {sectionName:'Connect',
-}
-]
+// export const footerText=[
+//     {
+//         sectionName:'Product',
+//         list:[
+//             {name:'Overview',
+//         url:'#s'},
+//         {
+//             name:'Pricing',
+//             url:'#s'
+//         },
+//         {
+//             name:'Marketplace',
+//             url:'#s'
+//         },
+//         {
+//             name:'Features',
+//             url:'#s'
+//         },
+//         {
+//             name:'Integrations',
+//             url:'#s'
+//         }
+//         ]
+//     },
+//     {
+//         sectionName:'Company',
+//     },
+//     {sectionName:'Connect',
+// }
+// ]
