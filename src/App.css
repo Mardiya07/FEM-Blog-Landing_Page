@@ -5,7 +5,7 @@
 /* Primary */
 --Light-Red:hsl(356, 100%, 66%);
 --Very-Light-Red:hsl(355, 100%, 74%);
---Very-Dark-Blue:hsl(208, 49%, 24%);
+--Dark-Blue:hsl(208, 49%, 24%);
 /* Neutral */
 --White:hsl(0, 0%, 100%);
 --Grayish-Blue:hsl(240, 2%, 79%);
@@ -13,7 +13,7 @@
 --Very-Dark-Blue: hsl(240, 10%, 16%);
 /* Background Gradient */
 --Very-Light-Redgr:hsl(13, 100%, 72%);
---Light-Redgr:(353, 100%, 62%);
+--Light-Redgr:hsl(353, 100%, 62%);
 --Very-Dark-Bluegr:hsl(237, 17%, 21%);
 --Very-Dark-Saturated-Bluegr:hsl(237, 23%, 32%);
 

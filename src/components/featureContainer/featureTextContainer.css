@@ -9,7 +9,9 @@
 .featureTextContainer h2{
     font-size: 2.8rem;
     padding: 2rem;
+    color: var(--Dark-Blue);
 }
 .featureTextContainer p{
     font-size: var(--Body-Ptags);
+    color: var(--Very-Dark-Grayish-Blue);
 }

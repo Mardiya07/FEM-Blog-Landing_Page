@@ -9,7 +9,7 @@ import Footer from '../../components/footer/Footer'
 const Home = () => {
     return (
         <div className='homepage'>
-            <header className='header'>
+            <header className='headerContainer'>
            <Navigation/> 
            <IntroContent/>
             </header>
@@ -27,7 +27,7 @@ const Home = () => {
             </div>
         </div>
 
-           <FeatureTextContainer paragraphHeadTxt={data.textContent.paragraph3HeadTxt} paragraphBodyTxt={data.textContent.paragraph3BodyTxt}/>
+           <FeatureTextContainer className='middleContainer' paragraphHeadTxt={data.textContent.paragraph3HeadTxt} paragraphBodyTxt={data.textContent.paragraph3BodyTxt}/>
            <div className='imageAndTextContainer'>
             <img className='laptopIllustration' src={data.images.laptopIllusMb} alt='laptop illustration '/>
             <div>
